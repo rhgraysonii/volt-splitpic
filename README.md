@@ -1,6 +1,8 @@
 # Volt::Splitpic
 
-TODO: Write a gem description
+Splitpics, like the onion does on clickhole.
+
+<img src='http://i.imgur.com/BZ5fTbj.gif'/>
 
 ## Installation
 
@@ -16,13 +18,18 @@ Or install it yourself as:
 
     $ gem install volt-splitpic
 
-## Usage
+and in `dependencies.rb`
 
-TODO: Write usage instructions here
+```RUBY
+component 'splitpic'
+```
+
+Check out the [example](http://www.github.com/theonion/splitpic/) in the source Repo to get running.
+
 
 ## Contributing
 
-1. Fork it ( http://github.com/[my-github-username]/volt-splitpic/fork )
+1. Fork it ( http://github.com/rhgraysonii/volt-splitpic/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
